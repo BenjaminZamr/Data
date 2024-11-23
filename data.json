@@ -44,7 +44,17 @@
       "descripcion": "Insertar una descripción..."
     }
   ],
-  "justificaciones": [],
+  "justificaciones": [
+    {
+      "id":"1",
+      "alumno":"benjamin zamora",
+      "asignatura":"Programación De Aplicaciones Móviles",
+      "docente":"Viviana Poblete",
+      "descripcion":"me enferme",
+      "imagen":"",
+      "fecha":""
+    }
+  ],
   "asistencias": [
     {
       "id": "e9ac",

@@ -8,7 +8,8 @@
       "password": "benja1234",
       "email": "benja@gmail.com",
       "imagen": "",
-      "isactive": true
+      "isactive": true,
+      "idCurso": "1"
     },
     {
       "id": "aa19",
@@ -18,7 +19,8 @@
       "password": "ignacio1234",
       "email": "igna@gmail.com",
       "imagen": "",
-      "isactive": true
+      "isactive": true,
+      "idCurso": "1"
     }
   ],
   "asignaturas": [
@@ -46,24 +48,26 @@
   ],
   "justificaciones": [
     {
-      "id":"1",
-      "alumno":"benjamin",
-      "asignatura":"Programación De Aplicaciones Móviles",
-      "docente":"Viviana Poblete",
-      "descripcion":"me enferme",
-      "imagen":"",
-      "fecha":""
+      "id": "1",
+      "alumno": "benjamin",
+      "asignatura": "Programación De Aplicaciones Móviles",
+      "docente": "Viviana Poblete",
+      "descripcion": "me enferme",
+      "imagen": "",
+      "fecha": "",
+      "comentario": "Aprobada"
     }
   ],
   "asistencias": [
     {
       "id": "e9ac",
-      "rut_alumno": "207223719",
-      "id_asignatura": "1",
+      "estado": true,
       "fecha": "23/10/2024 1:15:59",
-      "nombre": "Programación De Aplicaciones Móviles",
+      "asignatura": "Programación De Aplicaciones Móviles",
       "docente": "Viviana Poblete",
-      "email_alumno": "benja@gmail.com"
+      "email_alumno": "benja@gmail.com",
+      "rut_alumno": "207223719",
+      "id_curso": "1"
     }
   ],
   "imagen_asignaturas": [
@@ -109,6 +113,22 @@
       "email": "benja@gmail.com",
       "password": "benja1234",
       "isactive": true
+    }
+  ],
+  "cursos": [
+    {
+      "idCurso": "1",
+      "docente": "Viviana Poblete",
+      "asignatura": "Programación De Aplicaciones Móviles",
+      "codigo": "PAM-1D",
+      "id": "e168"
+    },
+    {
+      "idCurso": "2",
+      "docente": "Viviana Poblete",
+      "asignatura": "Programación De Aplicaciones Móviles",
+      "codigo": "PAM-1V",
+      "id": "68fe"
     }
   ]
 }

@@ -134,8 +134,9 @@
   "QR": [
     {
       "id": "1",
-      "qrCode": "",
-      "rut_alumno": "207223719"
+      "qrCode": "Rut Alumno: 20722371\n    Id asignatura: undefined\n    Fecha asistencia:25/11/2024 23:27:27\n    Nombre asignatura: undefined\n    Docente: Viviana Poblete\n    Email alumno: benja@gmail.com",
+      "rut_alumno": "207223719",
+      "id_curso": "1",
     }
   ]
 }
